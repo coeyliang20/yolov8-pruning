@@ -1,0 +1,95 @@
+2023-05-30 11:38:51,177 INFO    StreamThr :26527 [internal.py:wandb_internal():88] W&B internal server running at pid: 26527, started at: 2023-05-30 11:38:51.177109
+2023-05-30 11:38:51,181 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: status
+2023-05-30 11:38:51,184 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: status
+2023-05-30 11:38:51,190 DEBUG   SenderThread:26527 [sender.py:send():301] send: header
+2023-05-30 11:38:51,190 DEBUG   SenderThread:26527 [sender.py:send():301] send: run
+2023-05-30 11:38:51,196 INFO    WriterThread:26527 [datastore.py:open_for_write():75] open: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/run-2iozc58d.wandb
+2023-05-30 11:38:51,932 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: check_version
+2023-05-30 11:38:51,937 INFO    SenderThread:26527 [dir_watcher.py:__init__():216] watching files in: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files
+2023-05-30 11:38:51,937 INFO    SenderThread:26527 [sender.py:_start_run_threads():912] run started: 2iozc58d with start time 1685417931.167807
+2023-05-30 11:38:51,937 DEBUG   SenderThread:26527 [sender.py:send():301] send: summary
+2023-05-30 11:38:51,938 INFO    SenderThread:26527 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2023-05-30 11:38:51,938 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: check_version
+2023-05-30 11:38:52,941 INFO    Thread-13 :26527 [dir_watcher.py:_on_file_created():275] file/dir created: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/wandb-summary.json
+2023-05-30 11:38:53,872 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: run_start
+2023-05-30 11:38:53,890 DEBUG   HandlerThread:26527 [meta.py:__init__():34] meta init
+2023-05-30 11:38:53,890 DEBUG   HandlerThread:26527 [meta.py:__init__():49] meta init done
+2023-05-30 11:38:53,890 DEBUG   HandlerThread:26527 [meta.py:probe():215] probe
+2023-05-30 11:38:53,897 DEBUG   HandlerThread:26527 [meta.py:_setup_git():205] setup git
+2023-05-30 11:38:53,911 DEBUG   HandlerThread:26527 [meta.py:_setup_git():212] setup git done
+2023-05-30 11:38:53,912 DEBUG   HandlerThread:26527 [meta.py:_save_pip():53] save pip
+2023-05-30 11:38:53,913 DEBUG   HandlerThread:26527 [meta.py:_save_pip():67] save pip done
+2023-05-30 11:38:53,913 DEBUG   HandlerThread:26527 [meta.py:_save_conda():74] save conda
+2023-05-30 11:38:53,944 INFO    Thread-13 :26527 [dir_watcher.py:_on_file_created():275] file/dir created: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/conda-environment.yaml
+2023-05-30 11:38:53,945 INFO    Thread-13 :26527 [dir_watcher.py:_on_file_created():275] file/dir created: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/requirements.txt
+2023-05-30 11:38:58,493 DEBUG   HandlerThread:26527 [meta.py:_save_conda():84] save conda done
+2023-05-30 11:38:58,493 DEBUG   HandlerThread:26527 [meta.py:probe():253] probe done
+2023-05-30 11:38:58,662 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-30 11:38:58,662 DEBUG   SenderThread:26527 [sender.py:send():301] send: exit
+2023-05-30 11:38:58,663 INFO    SenderThread:26527 [sender.py:send_exit():437] handling exit code: 255
+2023-05-30 11:38:58,664 INFO    SenderThread:26527 [sender.py:send_exit():439] handling runtime: 4
+2023-05-30 11:38:58,668 INFO    SenderThread:26527 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2023-05-30 11:38:58,669 INFO    SenderThread:26527 [sender.py:send_exit():445] send defer
+2023-05-30 11:38:58,669 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: poll_exit
+2023-05-30 11:38:58,669 DEBUG   SenderThread:26527 [sender.py:send():301] send: files
+2023-05-30 11:38:58,670 INFO    SenderThread:26527 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2023-05-30 11:38:58,670 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:38:58,671 INFO    HandlerThread:26527 [handler.py:handle_request_defer():161] handle defer: 0
+2023-05-30 11:38:58,671 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:38:58,672 INFO    SenderThread:26527 [sender.py:send_request_defer():454] handle sender defer: 0
+2023-05-30 11:38:58,672 INFO    SenderThread:26527 [sender.py:transition_state():458] send defer: 1
+2023-05-30 11:38:58,673 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:38:58,673 INFO    HandlerThread:26527 [handler.py:handle_request_defer():161] handle defer: 1
+2023-05-30 11:38:58,778 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:38:58,779 INFO    SenderThread:26527 [sender.py:send_request_defer():454] handle sender defer: 1
+2023-05-30 11:38:58,779 INFO    SenderThread:26527 [sender.py:transition_state():458] send defer: 2
+2023-05-30 11:38:58,779 DEBUG   SenderThread:26527 [sender.py:send():301] send: stats
+2023-05-30 11:38:58,781 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:38:58,781 INFO    HandlerThread:26527 [handler.py:handle_request_defer():161] handle defer: 2
+2023-05-30 11:38:58,781 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:38:58,781 INFO    SenderThread:26527 [sender.py:send_request_defer():454] handle sender defer: 2
+2023-05-30 11:38:58,781 INFO    SenderThread:26527 [sender.py:transition_state():458] send defer: 3
+2023-05-30 11:38:58,782 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:38:58,782 INFO    HandlerThread:26527 [handler.py:handle_request_defer():161] handle defer: 3
+2023-05-30 11:38:58,782 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:38:58,782 INFO    SenderThread:26527 [sender.py:send_request_defer():454] handle sender defer: 3
+2023-05-30 11:38:58,783 INFO    SenderThread:26527 [sender.py:transition_state():458] send defer: 4
+2023-05-30 11:38:58,783 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:38:58,783 INFO    HandlerThread:26527 [handler.py:handle_request_defer():161] handle defer: 4
+2023-05-30 11:38:58,784 DEBUG   SenderThread:26527 [sender.py:send():301] send: summary
+2023-05-30 11:38:58,785 INFO    SenderThread:26527 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2023-05-30 11:38:58,785 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:38:58,785 INFO    SenderThread:26527 [sender.py:send_request_defer():454] handle sender defer: 4
+2023-05-30 11:38:58,785 INFO    SenderThread:26527 [sender.py:transition_state():458] send defer: 5
+2023-05-30 11:38:58,786 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:38:58,786 INFO    HandlerThread:26527 [handler.py:handle_request_defer():161] handle defer: 5
+2023-05-30 11:38:58,786 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:38:58,786 INFO    SenderThread:26527 [sender.py:send_request_defer():454] handle sender defer: 5
+2023-05-30 11:38:58,786 INFO    SenderThread:26527 [sender.py:transition_state():458] send defer: 6
+2023-05-30 11:38:58,787 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:38:58,787 INFO    HandlerThread:26527 [handler.py:handle_request_defer():161] handle defer: 6
+2023-05-30 11:38:58,787 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:38:58,787 INFO    SenderThread:26527 [sender.py:send_request_defer():454] handle sender defer: 6
+2023-05-30 11:38:58,787 INFO    SenderThread:26527 [sender.py:transition_state():458] send defer: 7
+2023-05-30 11:38:58,787 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:38:58,787 INFO    HandlerThread:26527 [handler.py:handle_request_defer():161] handle defer: 7
+2023-05-30 11:38:58,788 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:38:58,788 INFO    SenderThread:26527 [sender.py:send_request_defer():454] handle sender defer: 7
+2023-05-30 11:38:58,788 INFO    SenderThread:26527 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-05-30 11:38:58,947 INFO    SenderThread:26527 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/wandb-summary.json
+2023-05-30 11:38:58,947 INFO    SenderThread:26527 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/conda-environment.yaml
+2023-05-30 11:38:58,948 INFO    SenderThread:26527 [dir_watcher.py:_on_file_created():275] file/dir created: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/wandb-metadata.json
+2023-05-30 11:38:58,948 INFO    SenderThread:26527 [dir_watcher.py:finish():392] scan: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files
+2023-05-30 11:38:58,949 INFO    SenderThread:26527 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/config.yaml config.yaml
+2023-05-30 11:38:58,949 INFO    SenderThread:26527 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/conda-environment.yaml conda-environment.yaml
+2023-05-30 11:38:58,949 INFO    SenderThread:26527 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/wandb-metadata.json wandb-metadata.json
+2023-05-30 11:38:58,950 INFO    SenderThread:26527 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/requirements.txt requirements.txt
+2023-05-30 11:38:58,956 INFO    SenderThread:26527 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113851-2iozc58d/files/wandb-summary.json wandb-summary.json
+2023-05-30 11:38:58,964 INFO    SenderThread:26527 [sender.py:transition_state():458] send defer: 8
+2023-05-30 11:38:58,970 DEBUG   HandlerThread:26527 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:38:58,971 INFO    HandlerThread:26527 [handler.py:handle_request_defer():161] handle defer: 8
+2023-05-30 11:38:58,978 DEBUG   SenderThread:26527 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:38:58,978 INFO    SenderThread:26527 [sender.py:send_request_defer():454] handle sender defer: 8
+2023-05-30 11:38:58,978 INFO    SenderThread:26527 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-30 11:38:59,668 INFO    MainThread:26527 [internal.py:handle_exit():78] Internal process exited
+2023-05-30 11:38:59,670 WARNING MsgRouterThr:26527 [router.py:message_loop():74] EOFError seen in message_loop

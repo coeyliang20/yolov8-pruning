@@ -1,0 +1,206 @@
+2023-05-30 11:39:42,562 INFO    StreamThr :26987 [internal.py:wandb_internal():88] W&B internal server running at pid: 26987, started at: 2023-05-30 11:39:42.561236
+2023-05-30 11:39:42,565 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: status
+2023-05-30 11:39:42,568 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: status
+2023-05-30 11:39:42,571 DEBUG   SenderThread:26987 [sender.py:send():301] send: header
+2023-05-30 11:39:42,574 INFO    WriterThread:26987 [datastore.py:open_for_write():75] open: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/run-3nszrgml.wandb
+2023-05-30 11:39:42,576 DEBUG   SenderThread:26987 [sender.py:send():301] send: run
+2023-05-30 11:39:43,337 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: check_version
+2023-05-30 11:39:43,339 INFO    SenderThread:26987 [dir_watcher.py:__init__():216] watching files in: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files
+2023-05-30 11:39:43,339 INFO    SenderThread:26987 [sender.py:_start_run_threads():912] run started: 3nszrgml with start time 1685417982.550932
+2023-05-30 11:39:43,339 DEBUG   SenderThread:26987 [sender.py:send():301] send: summary
+2023-05-30 11:39:43,340 INFO    SenderThread:26987 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2023-05-30 11:39:43,340 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: check_version
+2023-05-30 11:39:44,343 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_created():275] file/dir created: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/wandb-summary.json
+2023-05-30 11:39:45,108 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: run_start
+2023-05-30 11:39:45,128 DEBUG   HandlerThread:26987 [meta.py:__init__():34] meta init
+2023-05-30 11:39:45,128 DEBUG   HandlerThread:26987 [meta.py:__init__():49] meta init done
+2023-05-30 11:39:45,128 DEBUG   HandlerThread:26987 [meta.py:probe():215] probe
+2023-05-30 11:39:45,135 DEBUG   HandlerThread:26987 [meta.py:_setup_git():205] setup git
+2023-05-30 11:39:45,148 DEBUG   HandlerThread:26987 [meta.py:_setup_git():212] setup git done
+2023-05-30 11:39:45,148 DEBUG   HandlerThread:26987 [meta.py:_save_pip():53] save pip
+2023-05-30 11:39:45,149 DEBUG   HandlerThread:26987 [meta.py:_save_pip():67] save pip done
+2023-05-30 11:39:45,149 DEBUG   HandlerThread:26987 [meta.py:_save_conda():74] save conda
+2023-05-30 11:39:45,346 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_created():275] file/dir created: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/conda-environment.yaml
+2023-05-30 11:39:45,347 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_created():275] file/dir created: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/requirements.txt
+2023-05-30 11:39:49,752 DEBUG   HandlerThread:26987 [meta.py:_save_conda():84] save conda done
+2023-05-30 11:39:49,753 DEBUG   HandlerThread:26987 [meta.py:probe():253] probe done
+2023-05-30 11:39:50,000 DEBUG   SenderThread:26987 [sender.py:send():301] send: files
+2023-05-30 11:39:50,001 INFO    SenderThread:26987 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2023-05-30 11:39:50,013 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-30 11:39:50,014 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: stop_status
+2023-05-30 11:39:50,343 DEBUG   SenderThread:26987 [sender.py:send():301] send: telemetry
+2023-05-30 11:39:50,349 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/conda-environment.yaml
+2023-05-30 11:39:50,350 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_created():275] file/dir created: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:39:50,350 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_created():275] file/dir created: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/wandb-metadata.json
+2023-05-30 11:39:50,877 INFO    Thread-17 :26987 [upload_job.py:push():139] Uploaded file /tmp/tmpbz2dzf5wwandb/leumiqef-wandb-metadata.json
+2023-05-30 11:39:52,354 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:39:55,177 DEBUG   SenderThread:26987 [sender.py:send():301] send: telemetry
+2023-05-30 11:39:55,181 DEBUG   SenderThread:26987 [sender.py:send():301] send: telemetry
+2023-05-30 11:39:55,221 DEBUG   SenderThread:26987 [sender.py:send():301] send: telemetry
+2023-05-30 11:39:55,356 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:39:57,358 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:39:59,359 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:01,361 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:05,347 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-30 11:40:05,349 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: stop_status
+2023-05-30 11:40:05,363 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:07,364 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:09,365 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:11,367 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:13,368 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:13,369 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/config.yaml
+2023-05-30 11:40:15,370 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:17,371 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:17,654 DEBUG   SenderThread:26987 [sender.py:send():301] send: stats
+2023-05-30 11:40:19,372 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:20,721 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-30 11:40:20,722 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: stop_status
+2023-05-30 11:40:21,373 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:23,375 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:25,376 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:27,378 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:29,379 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:31,380 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:33,382 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:35,383 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:36,056 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-30 11:40:36,057 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: stop_status
+2023-05-30 11:40:37,384 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:39,385 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:41,387 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:43,388 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:45,389 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:47,390 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:49,392 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:51,393 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-30 11:40:51,394 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: stop_status
+2023-05-30 11:40:51,399 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:52,019 DEBUG   SenderThread:26987 [sender.py:send():301] send: stats
+2023-05-30 11:40:53,402 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:55,404 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:57,405 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:40:59,406 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:01,408 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:03,409 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:05,410 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:06,734 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-30 11:41:06,735 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: stop_status
+2023-05-30 11:41:07,412 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:09,413 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:11,414 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:13,415 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:14,118 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-30 11:41:14,118 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-30 11:41:15,417 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:17,418 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:19,419 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:21,421 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:22,073 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-30 11:41:22,074 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: stop_status
+2023-05-30 11:41:23,423 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:25,424 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:25,729 DEBUG   SenderThread:26987 [sender.py:send():301] send: stats
+2023-05-30 11:41:27,425 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:29,426 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:31,427 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:33,428 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:35,430 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:37,431 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:37,453 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: stop_status
+2023-05-30 11:41:37,454 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: stop_status
+2023-05-30 11:41:39,432 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:41,434 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:43,435 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:45,436 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:46,740 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-30 11:41:46,806 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: partial_history
+2023-05-30 11:41:47,438 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:49,091 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-30 11:41:49,092 DEBUG   SenderThread:26987 [sender.py:send():301] send: exit
+2023-05-30 11:41:49,092 INFO    SenderThread:26987 [sender.py:send_exit():437] handling exit code: 255
+2023-05-30 11:41:49,093 INFO    SenderThread:26987 [sender.py:send_exit():439] handling runtime: 123
+2023-05-30 11:41:49,094 INFO    SenderThread:26987 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2023-05-30 11:41:49,094 INFO    SenderThread:26987 [sender.py:send_exit():445] send defer
+2023-05-30 11:41:49,094 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: poll_exit
+2023-05-30 11:41:49,096 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:41:49,096 INFO    HandlerThread:26987 [handler.py:handle_request_defer():161] handle defer: 0
+2023-05-30 11:41:49,097 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:41:49,097 INFO    SenderThread:26987 [sender.py:send_request_defer():454] handle sender defer: 0
+2023-05-30 11:41:49,097 INFO    SenderThread:26987 [sender.py:transition_state():458] send defer: 1
+2023-05-30 11:41:49,097 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:41:49,097 INFO    HandlerThread:26987 [handler.py:handle_request_defer():161] handle defer: 1
+2023-05-30 11:41:49,297 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:41:49,298 INFO    SenderThread:26987 [sender.py:send_request_defer():454] handle sender defer: 1
+2023-05-30 11:41:49,298 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-30 11:41:49,298 INFO    SenderThread:26987 [sender.py:transition_state():458] send defer: 2
+2023-05-30 11:41:49,299 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: poll_exit
+2023-05-30 11:41:49,300 DEBUG   SenderThread:26987 [sender.py:send():301] send: stats
+2023-05-30 11:41:49,300 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:41:49,302 INFO    HandlerThread:26987 [handler.py:handle_request_defer():161] handle defer: 2
+2023-05-30 11:41:49,306 DEBUG   SenderThread:26987 [sender.py:send():301] send: history
+2023-05-30 11:41:49,307 DEBUG   SenderThread:26987 [sender.py:send():301] send: summary
+2023-05-30 11:41:49,308 INFO    SenderThread:26987 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2023-05-30 11:41:49,308 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:41:49,308 INFO    SenderThread:26987 [sender.py:send_request_defer():454] handle sender defer: 2
+2023-05-30 11:41:49,308 INFO    SenderThread:26987 [sender.py:transition_state():458] send defer: 3
+2023-05-30 11:41:49,309 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:41:49,309 INFO    HandlerThread:26987 [handler.py:handle_request_defer():161] handle defer: 3
+2023-05-30 11:41:49,309 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:41:49,309 INFO    SenderThread:26987 [sender.py:send_request_defer():454] handle sender defer: 3
+2023-05-30 11:41:49,310 INFO    SenderThread:26987 [sender.py:transition_state():458] send defer: 4
+2023-05-30 11:41:49,310 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:41:49,310 INFO    HandlerThread:26987 [handler.py:handle_request_defer():161] handle defer: 4
+2023-05-30 11:41:49,310 DEBUG   SenderThread:26987 [sender.py:send():301] send: summary
+2023-05-30 11:41:49,311 INFO    SenderThread:26987 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2023-05-30 11:41:49,312 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:41:49,312 INFO    SenderThread:26987 [sender.py:send_request_defer():454] handle sender defer: 4
+2023-05-30 11:41:49,312 INFO    SenderThread:26987 [sender.py:transition_state():458] send defer: 5
+2023-05-30 11:41:49,312 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:41:49,313 INFO    HandlerThread:26987 [handler.py:handle_request_defer():161] handle defer: 5
+2023-05-30 11:41:49,313 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:41:49,313 INFO    SenderThread:26987 [sender.py:send_request_defer():454] handle sender defer: 5
+2023-05-30 11:41:49,313 INFO    SenderThread:26987 [sender.py:transition_state():458] send defer: 6
+2023-05-30 11:41:49,313 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:41:49,313 INFO    HandlerThread:26987 [handler.py:handle_request_defer():161] handle defer: 6
+2023-05-30 11:41:49,314 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:41:49,314 INFO    SenderThread:26987 [sender.py:send_request_defer():454] handle sender defer: 6
+2023-05-30 11:41:49,411 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-30 11:41:49,439 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:49,440 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/wandb-summary.json
+2023-05-30 11:41:50,665 INFO    SenderThread:26987 [sender.py:transition_state():458] send defer: 7
+2023-05-30 11:41:50,665 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: poll_exit
+2023-05-30 11:41:50,666 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:41:50,666 INFO    HandlerThread:26987 [handler.py:handle_request_defer():161] handle defer: 7
+2023-05-30 11:41:50,667 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:41:50,667 INFO    SenderThread:26987 [sender.py:send_request_defer():454] handle sender defer: 7
+2023-05-30 11:41:50,667 INFO    SenderThread:26987 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-05-30 11:41:50,768 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: poll_exit
+2023-05-30 11:41:51,440 INFO    Thread-13 :26987 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:51,441 INFO    SenderThread:26987 [dir_watcher.py:finish():392] scan: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files
+2023-05-30 11:41:51,442 INFO    SenderThread:26987 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log output.log
+2023-05-30 11:41:51,442 INFO    SenderThread:26987 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/config.yaml config.yaml
+2023-05-30 11:41:51,443 INFO    SenderThread:26987 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/conda-environment.yaml conda-environment.yaml
+2023-05-30 11:41:51,453 INFO    SenderThread:26987 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/wandb-metadata.json wandb-metadata.json
+2023-05-30 11:41:51,453 INFO    SenderThread:26987 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/requirements.txt requirements.txt
+2023-05-30 11:41:51,463 INFO    SenderThread:26987 [dir_watcher.py:finish():406] scan save: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/wandb-summary.json wandb-summary.json
+2023-05-30 11:41:51,463 INFO    SenderThread:26987 [sender.py:transition_state():458] send defer: 8
+2023-05-30 11:41:51,466 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: poll_exit
+2023-05-30 11:41:51,472 DEBUG   HandlerThread:26987 [handler.py:handle_request():138] handle_request: defer
+2023-05-30 11:41:51,473 INFO    HandlerThread:26987 [handler.py:handle_request_defer():161] handle defer: 8
+2023-05-30 11:41:51,474 DEBUG   SenderThread:26987 [sender.py:send_request():315] send_request: defer
+2023-05-30 11:41:51,475 INFO    SenderThread:26987 [sender.py:send_request_defer():454] handle sender defer: 8
+2023-05-30 11:41:51,475 INFO    SenderThread:26987 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-30 11:41:51,708 WARNING StreamThr :26987 [internal.py:is_dead():385] Internal process exiting, parent pid 26787 disappeared
+2023-05-30 11:41:51,708 ERROR   StreamThr :26987 [internal.py:wandb_internal():147] Internal process shutdown.
+2023-05-30 11:41:52,312 INFO    WriterThread:26987 [datastore.py:close():279] close: /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/run-3nszrgml.wandb
+2023-05-30 11:41:52,334 INFO    Thread-19 :26987 [upload_job.py:push():139] Uploaded file /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/config.yaml
+2023-05-30 11:41:52,344 INFO    Thread-20 :26987 [upload_job.py:push():139] Uploaded file /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/conda-environment.yaml
+2023-05-30 11:41:52,370 INFO    Thread-22 :26987 [upload_job.py:push():139] Uploaded file /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/wandb-summary.json
+2023-05-30 11:41:52,450 INFO    Thread-21 :26987 [upload_job.py:push():139] Uploaded file /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/requirements.txt
+2023-05-30 11:41:52,468 INFO    Thread-18 :26987 [upload_job.py:push():139] Uploaded file /data/hh/yolov8/wandb/run-20230530_113942-3nszrgml/files/output.log
+2023-05-30 11:41:52,475 INFO    HandlerThread:26987 [handler.py:finish():807] shutting down handler
+2023-05-30 11:41:52,475 INFO    SenderThread:26987 [sender.py:finish():1315] shutting down sender
+2023-05-30 11:41:52,476 INFO    MainThread:26987 [internal.py:handle_exit():78] Internal process exited
+2023-05-30 11:41:52,476 INFO    SenderThread:26987 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-30 11:41:52,477 INFO    SenderThread:26987 [file_pusher.py:join():173] waiting for file pusher
+2023-05-30 11:41:52,477 WARNING MsgRouterThr:26987 [router.py:message_loop():74] EOFError seen in message_loop

@@ -1,0 +1,153 @@
+Overriding model.yaml nc=80 with nc=20
+                   from  n    params  module                                       arguments
+  0                  -1  1       928  ultralytics.nn.modules.Conv                  [3, 32, 3, 2]
+  1                  -1  1     18560  ultralytics.nn.modules.Conv                  [32, 64, 3, 2]
+  2                  -1  1     29056  ultralytics.nn.modules.C2f                   [64, 64, 1, True]
+  3                  -1  1     73984  ultralytics.nn.modules.Conv                  [64, 128, 3, 2]
+  4                  -1  2    197632  ultralytics.nn.modules.C2f                   [128, 128, 2, True]
+  5                  -1  1    295424  ultralytics.nn.modules.Conv                  [128, 256, 3, 2]
+  6                  -1  2    788480  ultralytics.nn.modules.C2f                   [256, 256, 2, True]
+  7                  -1  1   1180672  ultralytics.nn.modules.Conv                  [256, 512, 3, 2]
+  8                  -1  1   1838080  ultralytics.nn.modules.C2f                   [512, 512, 1, True]
+  9                  -1  1    656896  ultralytics.nn.modules.SPPF                  [512, 512, 5]
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.Concat                [1]
+ 12                  -1  1    591360  ultralytics.nn.modules.C2f                   [768, 256, 1]
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.Concat                [1]
+ 15                  -1  1    148224  ultralytics.nn.modules.C2f                   [384, 128, 1]
+ 16                  -1  1    147712  ultralytics.nn.modules.Conv                  [128, 128, 3, 2]
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.Concat                [1]
+ 18                  -1  1    493056  ultralytics.nn.modules.C2f                   [384, 256, 1]
+ 19                  -1  1    590336  ultralytics.nn.modules.Conv                  [256, 256, 3, 2]
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.Concat                [1]
+ 21                  -1  1   1969152  ultralytics.nn.modules.C2f                   [768, 512, 1]
+ 22        [15, 18, 21]  1   2123788  ultralytics.nn.modules.Detect                [20, [128, 256, 512]]
+Model summary: 225 layers, 11143340 parameters, 11143324 gradients, 28.7 GFLOPs
+Transferred 349/355 items from pretrained weights
+[34m[1moptimizer:[39m[22m SGD(lr=0.01) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias
+[34m[1mtrain: [39m[22mScanning /data/hh/datasets/VOC/labels/train2007.cache... 5011 images, 0 backgrounds, 0 corrupt: 100%|██████████| 5011/5011 [00:00<?, ?it/s]
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+[34m[1mval: [39m[22mScanning /data/hh/datasets/VOC/labels/test2007.cache... 4952 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4952/4952 [00:00<?, ?it/s]
+Plotting labels to runs/detect/train6/labels.jpg...
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/detect/train6
+Starting training for 60 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/60         7G     0.9237      1.627       1.21         10        640: 100%|██████████| 314/314 [01:14<00:00,  4.23it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 155/155 [00:31<00:00,  4.87it/s]
+                   all       4952      12032      0.765      0.782      0.819      0.621
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+       2/60      7.04G     0.9132      1.036      1.169         64        640:   3%|▎         | 8/314 [00:01<01:12,  4.21it/s]
+Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "/data2/alvin/miniconda3/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/data2/alvin/miniconda3/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/utils/data/_utils/pin_memory.py", line 28, in _pin_memory_loop
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+  File "/data2/alvin/miniconda3/lib/python3.9/multiprocessing/queues.py", line 122, in get
+    Error in sys.excepthook:
+return _ForkingPickler.loads(res)Traceback (most recent call last):
+  File "/data2/alvin/miniconda3/lib/python3.9/linecache.py", line 46, in getlines
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/multiprocessing/reductions.py", line 297, in rebuild_storage_fd
+    fd = df.detach()
+return updatecache(filename, module_globals)  File "/data2/alvin/miniconda3/lib/python3.9/multiprocessing/resource_sharer.py", line 57, in detach
+  File "/data2/alvin/miniconda3/lib/python3.9/linecache.py", line 137, in updatecache
+    lines = fp.readlines()
+  File "/data2/alvin/miniconda3/lib/python3.9/codecs.py", line 319, in decode
+KeyboardInterrupt
+with _resource_sharer.get_connection(self._id) as conn:
+Original exception was:
+Traceback (most recent call last):
+  File "/data2/alvin/miniconda3/lib/python3.9/multiprocessing/resource_sharer.py", line 86, in get_connection
+  File "/data/hh/yolov8/train.py", line 8, in <module>
+    model.train(data="VOC.yaml", epochs=60,batch=16)  # train the model
+  File "/data/hh/yolov8/ultralytics/yolo/engine/model.py", line 355, in train
+        c = Client(address, authkey=process.current_process().authkey)self.trainer.train()
+  File "/data2/alvin/miniconda3/lib/python3.9/multiprocessing/connection.py", line 513, in Client
+  File "/data/hh/yolov8/ultralytics/yolo/engine/trainer.py", line 191, in train
+    self._do_train(world_size)
+  File "/data/hh/yolov8/ultralytics/yolo/engine/trainer.py", line 321, in _do_train
+        answer_challenge(c, authkey)preds = self.model(batch['img'])
+  File "/data2/alvin/miniconda3/lib/python3.9/multiprocessing/connection.py", line 757, in answer_challenge
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data/hh/yolov8/ultralytics/nn/tasks.py", line 205, in forward
+    return self._forward_once(x, profile, visualize)  # single-scale inference, train
+  File "/data/hh/yolov8/ultralytics/nn/tasks.py", line 58, in _forward_once
+    message = connection.recv_bytes(256)         # reject large message
+x = m(x)  # run  File "/data2/alvin/miniconda3/lib/python3.9/multiprocessing/connection.py", line 221, in recv_bytes
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+        buf = self._recv_bytes(maxlength)return forward_call(*input, **kwargs)
+  File "/data2/alvin/miniconda3/lib/python3.9/multiprocessing/connection.py", line 419, in _recv_bytes
+  File "/data/hh/yolov8/ultralytics/nn/modules.py", line 471, in forward
+        buf = self._recv(4)x[i] = torch.cat((self.cv2[i](x[i]), self.cv3[i](x[i])), 1)
+  File "/data2/alvin/miniconda3/lib/python3.9/multiprocessing/connection.py", line 388, in _recv
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+        raise EOFErrorreturn forward_call(*input, **kwargs)
+EOFError  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/nn/modules/container.py", line 139, in forward
+input = module(input)
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data/hh/yolov8/ultralytics/nn/modules.py", line 36, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 453, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt

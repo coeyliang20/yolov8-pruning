@@ -1,0 +1,28 @@
+[34m[1moptimizer:[39m[22m SGD(lr=0.01) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias
+[34m[1mtrain: [39m[22mScanning /data/hh/datasets/VOC/labels/train2007... 5011 images, 0 backgrounds, 0 corrupt: 100%|██████████| 5011/5011 [00:03<00:00, 1281.89i
+[34m[1mtrain: [39m[22mNew cache created: /data/hh/datasets/VOC/labels/train2007.cache
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+
+[34m[1mval: [39m[22mScanning /data/hh/datasets/VOC/labels/test2007... 4952 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4952/4952 [00:04<00:00, 1063.70it/s
+[34m[1mval: [39m[22mNew cache created: /data/hh/datasets/VOC/labels/test2007.cache
+Plotting labels to runs/detect/train3/labels.jpg...
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/detect/train3
+Starting training for 60 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+  0%|          | 0/314 [00:06<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/hh/yolov8/train.py", line 8, in <module>
+    model.train(data="VOC.yaml", epochs=60,batch=16)  # train the model
+  File "/data/hh/yolov8/ultralytics/yolo/engine/model.py", line 355, in train
+    self.trainer.train()
+  File "/data/hh/yolov8/ultralytics/yolo/engine/trainer.py", line 191, in train
+    self._do_train(world_size)
+  File "/data/hh/yolov8/ultralytics/yolo/engine/trainer.py", line 329, in _do_train
+    self.scaler.scale(self.loss).backward()
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/data2/alvin/miniconda3/lib/python3.9/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn
