@@ -1,4 +1,6 @@
 # Yolov8 Pruning
+This repository is the original source. For a more detailed repository and accompanying video explanations, please refer to the following GitHub link.
+[comming soon]
 
 
 
