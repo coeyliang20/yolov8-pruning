@@ -1,5 +1,5 @@
 # Yolov8 Pruning
-This repository is the original source. For a more detailed repository and accompanying video explanations【Chinese: shouxie_ai’s video tutorial, contact wechat: shouxie_ai; English: comming】
+This repository is the original source. For a more detailed repository and accompanying video explanations【Chinese: shouxie_ai’s paid video tutorial, contact wechat: shouxie_ai; English: comming】
 
 
 
